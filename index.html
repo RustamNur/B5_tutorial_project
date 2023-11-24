@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>B5 | miniProject</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand text-light" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="true"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-danger"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-light"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-light" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <img
+              src="https://picsum.photos/id/289/600/400"
+              alt="photo1"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-md-5">
+            <h1 class="display-5 mt-5">Tagline</h1>
+            <p class="lead mt-4">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est
+              alias laboriosam culpa quibusdam vel facilis, labore laborum
+              sapiente inventore qui at vero quis quia reiciendis, excepturi non
+              voluptas! Veniam, optio.
+            </p>
+            <button type="button" class="btn btn-primary mt-3">
+              Call to action!
+            </button>
+          </div>
+          <div class="row my-5">
+            <div class="col">
+              <div class="bg-secondary text-white my-3 py-3 card text-center">
+                <div class="card-body">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Officiis, omnis.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card-group">
+            <div class="card">
+              <img
+                src="https://picsum.photos/id/299/600/400"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Eligendi voluptatum rem temporibus debitis eaque aliquid illo
+                  tempore dolor cumque asperiores.
+                </p>
+                <div class="text-center">
+                  <button class="btn btn-outline-primary">Read more...</button>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="https://picsum.photos/id/249/600/400"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id,
+                  quas atque reiciendis suscipit nostrum ipsa exercitationem!
+                  Praesentium corrupti eum temporibus.
+                </p>
+                <div class="text-center">
+                  <button class="btn btn-outline-primary">Read more...</button>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="https://picsum.photos/id/178/600/400"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatibus dolorum impedit unde quidem exercitationem
+                  accusantium, tempora totam corrupti repellat odit.
+                </p>
+                <div class="text-center">
+                  <button class="btn btn-outline-primary">Read more...</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="my-5" />
+        <div class="row my-5">
+          <div class="text-center">
+            <h6 class="display-5">Get in touch</h6>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+              alias?
+            </p>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-6">
+              <div class="form-floating mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="floatingInput"
+                  placeholder="name@example.com"
+                />
+                <label for="floatingInput">Email address</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input
+                  type="password"
+                  class="form-control"
+                  id="floatingPassword"
+                  placeholder="Password"
+                />
+                <label for="floatingPassword">Password</label>
+              </div>
+              <div>
+                <label for="selectForm">Subject</label>
+                <select
+                  id="selectForm mb-3"
+                  class="form-select"
+                  aria-label="Default select example"
+                >
+                  <option selected>Open this select menu</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+
+              <div class="form-floating my-5">
+                <textarea
+                  class="form-control"
+                  placeholder="Leave a comment here"
+                  id="floatingTextarea2"
+                  style="height: 100px"
+                ></textarea>
+                <label for="floatingTextarea2">Comments</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer mt-auto py-3 bg-dark">
+      <div class="container">
+        <span class="text-muted"
+          >Copyright <a href="#">myb5project.com</a></span
+        >
+      </div>
+    </footer>
+
+    <script src="./bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
